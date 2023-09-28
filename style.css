@@ -1,0 +1,137 @@
+
+#div2{
+    margin-top: 5%;
+    border-radius: 50px;
+    /* background-color: yellow; */
+
+
+ 
+}
+div img{
+    /* padding: 60px; */
+    height: 550px;
+    /* margin-left: 10%; */
+    width: 350px;
+        margin-left: 40%;
+
+        border-radius: 50px;
+        box-shadow: 0 0 30px black;
+
+
+}
+.overlay{
+    position: absolute;
+    margin-top: -30%;
+    color: black;
+    width: 500px;
+    margin-left: 35%;
+
+} 
+.overlay h1{
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    /* margin-left: 30%; */
+    padding-bottom: 40px;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+
+}
+.overlay form{
+    margin-left: 20%;
+
+}#td{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#td1{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-left: 38px;
+}
+#td2{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* padding-right: 10px; */
+    padding-left: -20px;
+}
+input{
+    border-radius: 40px;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    /* margin-left: 10px; */
+    border: 0;
+}
+input:hover{
+ box-shadow:0 0 10px rgb(136, 136, 235);
+}
+
+#inp{
+ padding-left: 30px;
+}
+#btn{
+    border-radius: 40px;
+    text-align: center;
+    /* width: 200px; */
+    height: 35px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(121, 40, 243);
+color: white;
+border: 0;
+
+ 
+}
+#btn:hover{
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    
+}
+#btn1:hover{
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    
+}
+#btn1{
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+    /* width: 200px; */
+    height: 35px;
+    font-size: 10px;
+    margin-left: 30%;
+    font-weight: bold;
+    background-color: rgb(121, 40, 243);
+color: white;
+border: 0;
+}
+tr{
+   height: 60px;
+
+}
+@media screen and (max-width:400px) {
+    .overlay h1{
+        margin-top: -65%;
+        margin-right: 20%;
+        /* margin-left: -20%; */
+    }
+    #div2{
+        width: 400px;
+    }
+    .overlay form{
+                margin-left: 9%;
+
+    }
+}
